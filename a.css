@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+#zoo {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background-image: url('image/zoo_background.png');
+    background-size: cover;
+}
+.animal {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+}
+.koyun { background-image: url('image/koyun.png'); }
+.koyundisi { background-image: url('image/koyundişi.png'); }
+.inek { background-image: url('image/inek.png'); }
+.inekdisi { background-image: url('image/inekdişi.png'); }
+.tavuk { background-image: url('image/tavuk.png'); }
+.kurt { background-image: url('image/kurt.png'); }
+.kurtdisi { background-image: url('image/kurtdişi.png'); }
+.horoz { background-image: url('image/tavuk.png'); }
+.aslan { background-image: url('image/aslan.png'); }
+.aslandisi { background-image: url('image/aslandisi.png'); }
+.avci { background-image: url('image/hunter.png'); }
+#results {
+    margin-top: 20px;
+}
